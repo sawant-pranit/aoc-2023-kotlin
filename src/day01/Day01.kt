@@ -1,9 +1,14 @@
-fun main() {
-    val testInput = readInput("Day01_test")
-    val input = readInput("Day01")
+package day01
 
-    val testInput2 = readInput("Day01_test2")
-    val inputPart2 = readInput("Day01_2")
+import println
+import readInput
+
+fun main() {
+    val testInput = readInput("Day01_test", "day01")
+    val input = readInput("Day01", "day01")
+
+    val testInput2 = readInput("Day01_test2", "day01")
+    val inputPart2 = readInput("Day01_2", "day01")
 
 
     fun calibrationValue(row: String) : Int {
